@@ -19,43 +19,43 @@ export default function Root() {
       </div>
       <nav className={active == true ? "hiden-nav" : ""}>
         <ul>
-          <li>
-            <Link className="merkury" to="/mercury" onClick={handleClick}>
+          <li onClick={handleClick}>
+            <Link className="merkury" to="/mercury" >
               MERCURY
             </Link>
           </li>
-          <li>
-            <Link className="venus" to="/venus" onClick={handleClick}>
+          <li onClick={handleClick}>
+            <Link className="venus" to="/venus" >
               VENUS
             </Link>
           </li>
-          <li>
-            <Link className="earth" to="/earth" onClick={handleClick}>
+          <li onClick={handleClick}>
+            <Link className="earth" to="/earth" >
               EARTH
             </Link>
           </li>
-          <li>
-            <Link className="mars" to="/mars" onClick={handleClick}>
+          <li onClick={handleClick}>
+            <Link className="mars" to="/mars" >
               MARS
             </Link>
           </li>
-          <li>
-            <Link className="jupiter" to="/jupiter" onClick={handleClick}>
+          <li onClick={handleClick}>
+            <Link className="jupiter" to="/jupiter" >
               JUPITER
             </Link>
           </li>
-          <li>
-            <Link className="saturn" to="/saturn" onClick={handleClick}>
+          <li onClick={handleClick}>
+            <Link className="saturn" to="/saturn" >
               SATURN
             </Link>
           </li>
-          <li>
-            <Link className="uranus" to="/uranus" onClick={handleClick}>
+          <li onClick={handleClick}>
+            <Link className="uranus" to="/uranus" >
               URANUS
             </Link>
           </li>
-          <li>
-            <Link to="/neptune" className="neptune" onClick={handleClick}>
+          <li onClick={handleClick}>
+            <Link to="/neptune" className="neptune" >
               NEPTUNE
             </Link>
           </li>
