@@ -183,7 +183,7 @@ function App() {
       <div className="main">
         <Routes>
           <Route
-            path="/planetsFacts"
+            path="/"
             element={
               <Mercury
                 planet={data[0].planet}
